@@ -1,0 +1,17 @@
+absl-py==0.8.1
+astor==0.8.0
+certifi==2019.9.11
+gast==0.3.2
+grpcio==1.24.3
+h5py==2.10.0
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.0
+Markdown==3.1.1
+numpy==1.17.3
+protobuf==3.10.0
+six==1.12.0
+sty==1.0.0b12
+tensorboard==1.12.2
+tensorflow-gpu==1.12.0
+termcolor==1.1.0
+Werkzeug==0.16.0
