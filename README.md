@@ -15,7 +15,7 @@ A short video explains the main concepts of our work.  For more detail about CAR
 ```
 
 ## Getting Started
-Below is the step-by-step instruction for running our code.  Please first contact the authors for detailed instructions to obtain the access and URL to download the dataset.  After cloning the repo, you could replace the URL placeholder in `download.sh`.  Then, you are all set to download the dataset and the pre-trained word embeddings by running:
+Below is the step-by-step instruction for running our code.  Please first contact the authors for detailed instructions to obtain the access and URL to download the dataset.  After cloning the repo, you could replace the URL placeholder in [`download.sh`](https://github.com/code-terminator/classwise_rationale/blob/b3f78e1da69fb778f81211f8b62d13f109c56289/download_data.sh#L8).  Then, you are all set to download the dataset and the pre-trained word embeddings by running:
 
 ```bash
 sh download_data.sh
