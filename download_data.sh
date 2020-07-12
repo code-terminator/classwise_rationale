@@ -5,9 +5,9 @@ then
 else
     mkdir "data"
     cd data
-    wget http://people.csail.mit.edu/chang87/files/beer_review.zip
-    unzip beer_review.zip      
-    cd ..    
+    wget http://xxxxxxxxxxxx/beer_review.zip
+    unzip beer_review.zip
+    cd ..
 fi
 
 # Get the embedding
@@ -19,6 +19,5 @@ else
     # get embeddings
     cd embeddings
     wget http://nlp.stanford.edu/data/glove.6B.zip
-    unzip glove.6B.zip    
+    unzip glove.6B.zip
 fi
-

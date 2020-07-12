@@ -1,5 +1,5 @@
 # A Game Theoretic Approach to Class-wise Selective Rationalization
-This repo contains the Tensorflow implementation of [A Game Theoretic Approach to Class-wise Selective Rationalization](https://arxiv.org/abs/1910.12853) (CAR).  To make this repo neat and light-weight, we release the core code with a single multi-aspect dataset (i.e. the beer review) for the demo purpose.  If you are interested in reproducing the exact results for other datasets, please contact us, and we are very happy to provide the code and help.
+This repo contains the Tensorflow implementation of [A Game Theoretic Approach to Class-wise Selective Rationalization](https://arxiv.org/abs/1910.12853) (CAR).  To make this repo neat and light-weight, we release the core code with a single multi-aspect dataset (i.e. the [beer review](http://snap.stanford.edu/data/web-BeerAdvocate.html)) for the demo purpose.  If you are interested in reproducing the exact results for other datasets, please contact us, and we are very happy to provide the code and help.
 
 A short video explains the main concepts of our work.  For more detail about CAR, Please see our [NeurIPS 2019 paper](https://arxiv.org/abs/1910.12853).  If you find this work useful and use it in your research, please consider citing our paper.
 
@@ -15,7 +15,7 @@ A short video explains the main concepts of our work.  For more detail about CAR
 ```
 
 ## Getting Started
-Below is the step-by-step instruction for running our code.  After cloning the repo, please first run the following script to download the dataset and the pre-trained word embeddings.
+Below is the step-by-step instruction for running our code.  Please first contact the authors for detailed instructions to obtain the access and URL to download the dataset.  After cloning the repo, you could replace the URL placeholder in `download.sh`.  Then, you are all set to download the dataset and the pre-trained word embeddings by running:
 
 ```bash
 sh download_data.sh
